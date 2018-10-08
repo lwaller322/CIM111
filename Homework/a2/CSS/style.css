@@ -1,0 +1,55 @@
+ul{
+  list-style-type: disc;
+   list-style-position: inside;
+}
+
+p{
+  font-family: "Courier",  monospace;
+}
+a{
+  color:#05470c
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  color:#f5820b
+}
+
+
+
+.blue{color:#090085
+
+}
+
+.headerfont{
+  font-family: "Arial", sans-serif;
+  font-style: oblique;
+}
+.black{
+  background-color: black
+}
+.visible{
+  color:white
+}
+.spooky{
+  text-shadow: 0px 1px 5px #ffffff;
+}
+/* the text-shadow tag is the tag that I chose to use that we did not discuss in class.*/
+.largehead{
+  font-size: 64px
+}
+.normal{
+  font-size: 32px
+}
+
+#lookbetter{
+  height: 200px;
+  width: 150px;
+}
+
+#lloydfont{
+  font-family: "Times New Roman" serif;
+}
