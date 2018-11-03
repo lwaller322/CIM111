@@ -1,0 +1,165 @@
+a{
+  color:red
+}
+
+body{
+background-color: #000000;
+}
+.white{
+  font-size: 15px;
+  color: white;
+}
+
+.background{
+  background-color: black;
+}
+
+.purewhite{
+  color:white;
+}
+.largetext{
+  font-size: 20px;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0px 0px;
+  grid-template-areas:
+  "Photo Photo Sig Sig" "Photo Photo Sig Sig" "Head Head Head Head" "text text text text" "Link1 Link1 Link2 Link2";
+}
+
+.Photo{
+  grid-area: Photo;
+}
+
+.Sig{
+  grid-area: Sig;
+}
+
+.Head{
+  grid-area: Head;
+}
+
+.text{
+  grid-area: text;
+}
+
+.Link1{
+  grid-area: Link1;
+}
+
+.Link2{
+  grid-area: Link2;
+}
+
+.altpagegrid-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 0px 0px;
+  grid-template-areas: "Texttalk Texttalk Texttalk Texttalk" ". YoutubeLink YoutubeLink ." ". YoutubeLink YoutubeLink .";
+}
+
+.Texttalk { grid-area: Texttalk; }
+
+.YoutubeLink { grid-area: YoutubeLink; }
+
+.wrapper{
+  display:grid;
+  grid-gap: 20px;
+}
+#lookbetter{
+  height: 500px;
+  width: 700px;
+}
+#signaturefix{
+  height:500px;
+  width: 675px;
+}
+.dark{
+  background-color: black
+}
+
+.center{
+  text-align: center;
+  font-size: 50px;
+}
+
+@media (max-width: 500px){
+  .grid-container{
+    grid-template-areas:
+    "Photo"
+    "Sig"
+    "Head"
+    "text"
+    "Link1"
+    "Link2"
+    "Texttalk"
+    "YoutubeLink"
+}
+  @media (max-width: 700px){
+    .grid-container{
+      grid-template-areas:
+      "Photo"
+      "Sig"
+      "Head"
+      "text"
+      "Link1"
+      "Link2"
+      "Texttalk"
+      "YoutubeLink"
+}
+    @media (max-width: 1000px){
+      .altpagegrid-container{
+        grid-template-areas:
+        "Photo"
+        "Sig"
+        "Head"
+        "text"
+        "Link1"
+        "Link2"
+        "Texttalk"
+        "YoutubeLink"
+}
+  @media (max-width: 500px){
+  	.altpagegrid-container{
+  		grid-template-areas:
+      "Photo"
+      "Sig"
+      "Head"
+  		"text"
+  		"Link1"
+      "Link2"
+      "Texttalk"
+      "YoutubeLink"
+}
+
+  @media (max-width: 700px){
+      	.altpagegrid-container{
+      		grid-template-areas:
+          "Photo"
+          "Sig"
+          "Head"
+      		"text"
+      		"Link1"
+          "Link2"
+          "Texttalk"
+          "YoutubeLink"
+}
+  @media (max-width: 1000px){
+    .altpagegrid-container{
+      grid-template-areas:
+      "Photo"
+      "Sig"
+      "Head"
+      "text"
+      "Link1"
+      "Link2"
+      "Texttalk"
+      "YoutubeLink"
+}
