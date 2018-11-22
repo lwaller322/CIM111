@@ -1,0 +1,133 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "BufferArea1 Title Title Title BufferArea2" "BufferArea1 Type Type Type BufferArea2" "BufferArea1 Places Places Places BufferArea2" "Place1 Place2 Place3 Place4 Place5" "Photo1 Photo2 Photo3 Photo4 Photo5";
+}
+
+a{
+  color: white;
+}
+body{
+  background-image: url("../Images/Tokyo1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: fill;
+  background-color: black;
+}
+
+img{
+  object-fit: cover;
+  width: auto;
+  max-height: auto;
+}
+.Places { grid-area: Places; }
+
+.Type { grid-area: Type; }
+
+.BufferArea1 { grid-area: BufferArea1; }
+
+.BufferArea2 { grid-area: BufferArea2; }
+
+.Place1 { grid-area: Place1; }
+
+.Place2 { grid-area: Place2; }
+
+.Place3 { grid-area: Place3; }
+
+.Place4 { grid-area: Place4; }
+
+.Place5 { grid-area: Place5; }
+
+.Photo5 { grid-area: Photo5; }
+
+.Photo4 { grid-area: Photo4; }
+
+.Photo3 { grid-area: Photo3; }
+
+.Photo2 { grid-area: Photo2; }
+
+.Photo1 { grid-area: Photo1; }
+
+.header{
+  text-align: center;
+  font-size: 24px;
+  margin-top: 24px;
+  color: white;
+}
+
+.headerbutnot{
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  margin-top: 100px;
+}
+
+.headerbutnot1{
+  text-align: center;
+  font-size: 48px;
+  color: black;
+  margin-top: 100px;
+}
+
+.headerbutnotouter{
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  margin-top: 100px;
+}
+
+  @media (max-width: 500px){
+    .grid-container{
+      grid-template-areas:
+      "Places"
+      "Type"
+      "BufferArea1"
+      "BufferArea2"
+      "Place1"
+      "Place2"
+      "Place3"
+      "Place4"
+      "Place5"
+      "Photo5"
+      "Photo4"
+      "Photo3"
+      "Photo2"
+      "Photo1"
+  }
+  @media (max-width: 700px){
+    .grid-container{
+      grid-template-areas:
+      "Places"
+      "Type"
+      "BufferArea1"
+      "BufferArea2"
+      "Place1"
+      "Place2"
+      "Place3"
+      "Place4"
+      "Place5"
+      "Photo5"
+      "Photo4"
+      "Photo3"
+      "Photo2"
+      "Photo1"
+  }
+  @media (max-width: 1000px){
+    .grid-container{
+      grid-template-areas:
+      "Places"
+      "Type"
+      "BufferArea1"
+      "BufferArea2"
+      "Place1"
+      "Place2"
+      "Place3"
+      "Place4"
+      "Place5"
+      "Photo5"
+      "Photo4"
+      "Photo3"
+      "Photo2"
+      "Photo1"
+  }

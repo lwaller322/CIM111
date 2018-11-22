@@ -1,0 +1,20 @@
+.tiltshift-wrap {
+  display:inline-block;
+  position:relative;
+  overflow:hidden;
+  object-fit: cover;
+  width: 200px;
+  max-height: 200px;
+  margin-left: 50px;
+}
+
+.tiltshift-layer {
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-repeat:no-repeat;
+    background-position:0 0;
+}
